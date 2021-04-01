@@ -10,11 +10,13 @@ def print_board(board):
     print(board['1'] + '|' + board['2'] + '|' + board['3'])
 
 def game(print_board,theBoard):
-  
+  move = input("where to put: ")
+  theBoard[move] = "X"
+  print_board(theBoard)
 
 
 #def available_moves()
 
 #def has_won()
 
-print_board(theBoard)
+game(print_board,theBoard)
