@@ -1,2 +1,2 @@
 # Tic-tac-toe
-nice
+epic tic tac toe
